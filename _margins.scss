@@ -1,0 +1,17 @@
+.skinny {
+  &.skinny-head {
+    margin-top: -10px;
+  }
+  &.skinny-ass {
+    margin-bottom: -10px;
+  }
+}
+
+.fat {
+  &.fat-head {
+    margin-top: 20px;
+  }
+  &.fat-ass {
+    margin-bottom: 20px;
+  }
+}

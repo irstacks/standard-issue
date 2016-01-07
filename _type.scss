@@ -1,0 +1,41 @@
+
+
+.type {
+
+  // SIZES
+  &.type-small {
+    font-size: .7em;
+  }
+  &.type-biggest {
+    font-size: 3em;
+  }
+
+  // COLORS
+  &.type-standard {
+    color: $light;
+  }
+  &.type-balanced {
+    color: $balanced;
+  }
+  &.type-positive {
+    color: $positive;
+  }
+  &.type-stable {
+    color: darken($stable, 10%);
+  }
+  &.type-assertive {
+    color: $assertive;
+  }
+  &.type-calm {
+    color: $calm;
+  }
+  &.type-dark {
+    color: $dark;
+  }
+
+  // SHADES
+  &.type-muted {
+    color: gray;
+  }
+
+}

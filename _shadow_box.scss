@@ -1,0 +1,6 @@
+@mixin shadow_box {
+	// horiz l, vert l, blur rad, spread rad
+	-webkit-box-shadow: 0px 2px 5px 0px #888888;
+	-moz-box-shadow: 0px 2px 5px 0px #888888;
+	box-shadow: 0px 2px 5px 0px #888888;
+}
